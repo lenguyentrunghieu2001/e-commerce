@@ -1,0 +1,16 @@
+.pagination .page-item .page-link {
+    border-radius: 50%;
+    border: 1px solid black;
+    color: black;
+    margin: 5px;
+}
+.pagination li:first-child .page-link {
+    border-radius: 50% 0 0 50%;
+}
+.pagination li:last-child .page-link {
+    border-radius: 0 50% 50% 0;
+}
+.pagination .page-item.active .page-link {
+    background-color: black;
+    color: white;
+}
